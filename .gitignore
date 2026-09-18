@@ -1,0 +1,17 @@
+node_modules
+dist
+coverage
+*.local
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+# Raw datasets downloaded by scripts/build-catalog.ts
+data/raw
+
+# Signing keys for store releases never belong in git
+*.keystore
+*.jks
+*.p12
+*.mobileprovision

@@ -1,0 +1,100 @@
+slug,fdc_id,name_es,name_en,aliases,unit,unit_g,serving_g
+egg,171287,Huevo entero,Egg (whole),blanquillo;huevos;eggs,g,50,
+egg-white,172183,Clara de huevo,Egg white,claras,g,33,
+egg-boiled,173424,Huevo cocido,Hard-boiled egg,huevo duro;huevo hervido,g,50,
+rice-white-cooked,168878,Arroz blanco cocido,White rice (cooked),arroz,g,,158
+rice-white-raw,168877,Arroz blanco crudo,White rice (raw),arroz,g,,
+rice-brown-cooked,169704,Arroz integral cocido,Brown rice (cooked),arroz,g,,202
+chicken-breast-raw,171077,Pechuga de pollo cruda,Chicken breast (raw),pollo,g,,113
+chicken-breast-grilled,171534,Pechuga de pollo a la plancha,Chicken breast (grilled),pollo asado;pollo,g,,85
+chicken-thigh,172388,Muslo de pollo asado (sin piel),"Chicken thigh (roasted, skinless)",pollo;contramuslo,g,116,
+tortilla-corn,175036,Tortilla de maíz,Corn tortilla,tortillas,g,24,
+tortilla-flour,175037,Tortilla de harina,Flour tortilla,tortillas;wrap,g,48,
+milk-whole,171265,Leche entera,Whole milk,leche,ml,,244
+milk-reduced,171267,Leche semidescremada (2 %),Reduced-fat milk (2%),leche semidesnatada;leche light,ml,,244
+milk-skim,171269,Leche descremada,Skim milk,leche desnatada;leche light,ml,,245
+oats,173904,Avena en hojuelas,Rolled oats,avena;oatmeal,g,,27
+banana,173944,Plátano,Banana,banana;banano;guineo,g,118,
+apple,171688,Manzana,Apple,,g,182,
+bread-white,174924,Pan blanco de caja,White bread,pan de molde;pan bimbo;rebanada,g,29,
+bread-whole-wheat,172688,Pan integral,Whole-wheat bread,pan de molde integral,g,32,
+pita,174915,Pan pita,Pita bread,pan árabe,g,60,
+crackers,172746,Galletas saladas,Saltine crackers,galletas soda;crackers,g,3,15
+pasta-cooked,169737,Pasta cocida,Pasta (cooked),espagueti;spaghetti;macarrones;fideos,g,,124
+pasta-dry,169736,Pasta seca,Pasta (dry),espagueti;spaghetti;macarrones;fideos,g,,57
+potato-boiled,170440,Papa cocida,Boiled potato,patata cocida;papas,g,167,
+potato-baked,170093,Papa al horno (con piel),Baked potato (with skin),patata asada;papas,g,173,
+sweet-potato,168483,Camote al horno,Baked sweet potato,boniato;batata,g,114,
+quinoa,168917,Quinoa cocida,Quinoa (cooked),quinua,g,,185
+corn,169999,Elote cocido,Sweet corn (cooked),maíz;choclo;mazorca,g,103,149
+beans-black,173735,Frijoles negros cocidos,Black beans (cooked),frijol;judías negras;porotos;caraotas,g,,172
+beans-pinto,175200,Frijoles pintos cocidos,Pinto beans (cooked),frijol;porotos,g,,171
+beans-refried,172438,Frijoles refritos,Refried beans,frijol,g,,238
+lentils,172421,Lentejas cocidas,Lentils (cooked),,g,,198
+chickpeas,173757,Garbanzos cocidos,Chickpeas (cooked),garbanzo beans,g,,164
+tofu,172475,Tofu firme,Firm tofu,,g,,126
+yogurt-plain,171284,Yogur natural,Plain yogurt (whole milk),yogurt;yoghurt,g,,170
+yogurt-greek-nonfat,170894,Yogur griego natural sin grasa,"Greek yogurt (plain, nonfat)",yogurt griego;yoghurt,g,,170
+yogurt-greek-whole,171304,Yogur griego natural entero,"Greek yogurt (plain, whole milk)",yogurt griego;yoghurt,g,,
+cheese-fresh,172223,Queso fresco,Queso fresco (fresh cheese),queso,g,,
+cheese-cheddar,173414,Queso cheddar,Cheddar cheese,queso amarillo;queso,g,28,
+cheese-mozzarella,170845,Queso mozzarella,Mozzarella cheese,queso oaxaca;queso,g,,28.35
+cheese-parmesan,170848,Queso parmesano,Parmesan cheese,queso,g,,
+cheese-cream,173418,Queso crema,Cream cheese,queso philadelphia;queso untable,g,,14.5
+cream,170859,Crema para batir,Heavy cream,nata para montar;crema de leche,g,,15
+butter,173410,Mantequilla,Butter,manteca,g,,14.2
+beef-ground-90-raw,174030,Carne molida de res 90/10 (cruda),Ground beef 90/10 (raw),carne picada;carne,g,,113
+beef-ground-90-cooked,174031,Carne molida de res 90/10 (cocida),Ground beef 90/10 (cooked),carne picada;carne;hamburguesa,g,,85
+beef-ground-85-cooked,174032,Carne molida de res 85/15 (cocida),Ground beef 85/15 (cooked),carne picada;carne;hamburguesa,g,77,85
+beef-sirloin,168727,Bistec de res asado (sirloin),Beef sirloin steak (broiled),carne asada;filete;solomillo;carne,g,,85
+pork-loin,168233,Lomo de cerdo asado,"Pork loin (roasted, lean)",puerco;chuleta;carne de cerdo,g,81,85
+ham,173864,Jamón en rebanadas,Sliced ham,jamón cocido;jamón de pavo,g,28,56
+bacon,167914,Tocino cocinado,Bacon (cooked),beicon;panceta,g,8.1,
+turkey-breast,171496,Pechuga de pavo asada,Turkey breast (roasted),pavo,g,,85
+tuna-water,173709,Atún en agua (escurrido),Canned tuna in water (drained),atún;lata de atún,g,165,85
+tuna-oil,173708,Atún en aceite (escurrido),Canned tuna in oil (drained),atún;lata de atún,g,171,85
+salmon,175168,Salmón cocinado,Salmon (cooked),pescado,g,,85
+tilapia,175177,Tilapia cocinada,Tilapia (cooked),pescado;mojarra,g,87,
+shrimp,175180,Camarón cocido,Shrimp (cooked),gambas;langostinos;mariscos,g,,85
+sardines,175139,Sardinas en aceite,Sardines in oil,pescado;lata de sardinas,g,92,
+avocado,171705,Aguacate,Avocado,palta,g,201,50
+tomato,170457,Jitomate,Tomato,tomate;tomates,g,123,
+onion,170000,Cebolla,Onion,,g,110,
+lettuce,169247,Lechuga romana,Romaine lettuce,lechuga;ensalada,g,,47
+carrot,170393,Zanahoria,Carrot,,g,61,
+broccoli,170379,Brócoli,Broccoli,brécol,g,,91
+spinach,168462,Espinaca,Spinach,espinacas,g,,30
+cucumber,168409,Pepino,Cucumber,,g,301,
+zucchini,169291,Calabacita,Zucchini,calabacín;zapallito,g,196,
+bell-pepper,170108,Pimiento rojo,Red bell pepper,chile morrón;pimentón;morrón,g,119,
+mushrooms,169251,Champiñones,White mushrooms,hongos;setas,g,18,70
+nopales,169388,Nopales cocidos,Nopales (cooked),nopal,g,29,149
+green-beans,169961,Ejotes,Green beans,judías verdes;vainitas;chauchas,g,,
+orange,169097,Naranja,Orange,,g,131,
+strawberries,167762,Fresas,Strawberries,frutillas,g,12,144
+mango,169910,Mango,Mango,,g,336,165
+papaya,169926,Papaya,Papaya,lechosa;fruta bomba,g,,145
+pineapple,169124,Piña,Pineapple,ananá,g,,165
+grapes,174683,Uvas,Grapes,,g,,151
+watermelon,167765,Sandía,Watermelon,patilla,g,,152
+pear,169118,Pera,Pear,,g,178,
+blueberries,171711,Arándanos,Blueberries,moras azules,g,,148
+kiwi,168153,Kiwi,Kiwi,,g,69,
+guava,173044,Guayaba,Guava,,g,55,
+lime,168155,Limón,Lime,lima,g,67,
+plantain,169130,Plátano macho,Plantain,plátano verde;banano macho,g,270,
+olive-oil,171413,Aceite de oliva,Olive oil,aceite,g,,13.5
+canola-oil,172336,Aceite vegetal (canola),Canola oil,aceite;aceite de colza,g,,14
+mayonnaise,171009,Mayonesa,Mayonnaise,mayo,g,,13.8
+sugar,169655,Azúcar,Sugar,azúcar blanca,g,,4.2
+honey,169640,Miel,Honey,miel de abeja,g,,21
+peanut-butter,172470,Crema de cacahuate,Peanut butter,mantequilla de maní;crema de cacahuete;mantequilla de cacahuate,g,,32
+almonds,170567,Almendras,Almonds,,g,1.2,28.35
+walnuts,170187,Nueces,Walnuts,nuez,g,,28.35
+peanuts,173806,Cacahuates tostados,Peanuts (dry-roasted),maní;cacahuetes,g,1,28.35
+chia,170554,Semillas de chía,Chia seeds,chía,g,,28.35
+dark-chocolate,170273,Chocolate oscuro 70–85 %,Dark chocolate 70–85%,chocolate amargo;chocolate negro,g,,28.35
+coffee,171890,Café negro,Black coffee,café americano;café,ml,,237
+orange-juice,169098,Jugo de naranja,Orange juice,zumo de naranja,ml,,248
+cola,174852,Refresco de cola,Cola soda,coca;soda;gaseosa,ml,370,
+almond-milk,174832,Bebida de almendra sin azúcar,Unsweetened almond milk,leche de almendra,ml,,262

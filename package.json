@@ -1,0 +1,61 @@
+{
+  "name": "openfit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first, privacy-first nutrition tracker for Android, iOS and the web (PWA). No account, no server.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:native": "vite build --mode native",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json --fail-on-warnings && tsc -p tsconfig.node.json",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "node e2e/smoke.ts",
+    "size": "node scripts/check-size.ts",
+    "catalog": "node scripts/build-catalog.ts",
+    "icons": "node scripts/generate-icons.ts",
+    "mobile:sync": "npm run build:native && node scripts/cap.ts sync",
+    "mobile:assets": "npx --yes @capacitor/assets@3 generate --android --ios --assetPath assets",
+    "android": "npm run mobile:sync && node scripts/cap.ts run android",
+    "android:open": "node scripts/cap.ts open android",
+    "android:apk": "npm run mobile:sync && node scripts/gradle.ts assembleDebug",
+    "ios": "npm run mobile:sync && node scripts/cap.ts run ios",
+    "ios:open": "node scripts/cap.ts open ios",
+    "ci": "npm run lint && npm run check && npm test && npm run build && npm run size"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@eslint/js": "^10.0.1",
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@types/node": "^24.13.5",
+    "eslint": "^10.10.0",
+    "eslint-plugin-svelte": "^3.23.0",
+    "fake-indexeddb": "^6.2.5",
+    "globals": "^17.12.0",
+    "playwright-core": "^1.63.0",
+    "prettier": "^3.9.7",
+    "prettier-plugin-svelte": "^4.1.1",
+    "svelte": "^5.57.0",
+    "svelte-check": "^4.7.6",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.70.0",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/filesystem": "^8.1.3",
+    "@capacitor/ios": "^8.5.2",
+    "@capacitor/share": "^8.0.2"
+  }
+}

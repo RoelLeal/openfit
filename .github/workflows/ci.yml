@@ -1,0 +1,38 @@
+# Lint, types, unit tests, production build, size budget and a browser smoke test.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run check
+      - run: npm test
+      - run: npm run build
+      - run: npm run size
+      # The smoke test uses the Chrome that ships with the Ubuntu runner image.
+      - run: npm run e2e
+      - uses: actions/upload-artifact@v7
+        if: failure()
+        with:
+          name: e2e-failure
+          path: dist/failure.png
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v7
+        with:
+          name: pwa
+          path: dist

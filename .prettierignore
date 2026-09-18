@@ -1,0 +1,10 @@
+dist
+coverage
+node_modules
+package-lock.json
+public/packs
+src/catalog/base-foods.json
+PLAN.md
+android
+ios
+assets

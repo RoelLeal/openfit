@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "OpenFit",
+  "short_name": "OpenFit",
+  "description": "Track food, calories, macros and weight. Local-first and private: no account, no server.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f6f4",
+  "theme_color": "#f6f6f4",
+  "categories": ["health", "food", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Add food", "short_name": "Add", "url": "./#/add" },
+    { "name": "Weight", "short_name": "Weight", "url": "./#/weight" }
+  ]
+}

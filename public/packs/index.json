@@ -1,0 +1,15 @@
+{
+  "packs": [
+    {
+      "id": "usda-sr-legacy",
+      "default": true,
+      "version": "2018-04+15c7c4fd21",
+      "name": "USDA SR Legacy",
+      "description": "About 7,700 generic foods from the USDA, per 100 g, with automatically translated Spanish names.",
+      "file": "usda-sr-legacy.json",
+      "foods": 7694,
+      "bytes": 1200047,
+      "license": "CC0-1.0"
+    }
+  ]
+}
